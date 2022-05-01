@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  background-color: #282c34;
+  color:aliceblue;
+}
+
+.form-control:focus, .form-control:visited {
+  background-color: #282c34;
+
+  color:aliceblue;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  text-align: start;
+}
+
+.search {
+  max-height: 800px;
+  overflow: scroll;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.meme-search{
+  width: 30%;
+  height: auto;
+}
+
+.alert {
+  position: relative;
+  margin-top: 10px;
+}
+
+.meme-detail {
+  border-radius: 5px;
+  padding: 20px
+}
+
+.search-div {
+  display:flex;
+  position: relative;
+  height: 55px;
+}
+
+.top_search {
+  border-radius: 5px;
+  height: 37px;
+  border-style: none;
+  font-size: 17px;
+  padding-left: 49px;
+  position: relative;
+  margin-right: 20px;
+  vertical-align: center;
+}
+
+.search-div .fa-search {
+  position: absolute;
+  z-index: 1;
+  left: 35px;
+  top: 19px;
+}
+
+.comment {
+  padding-left:20px;
+  margin-bottom: 0px;
+}
+.meme-div {
+  width: 80%;
+  margin: auto;
+}
+.meme-image {
+  width: 100%;
+}
+
+.user-actions {
+  width:100%;
+}
+
+.caption-div{
+  height: 160px;
+}
+
+.navLink {
+  margin-top:-3px;
+}
+
+.meme-display {
+  border-radius: 5px;
+}
+
+.liked-memes {
+  height: 250px;
+  overflow: scroll;
+}
+
+.wrapper {
+  margin-bottom: 20px;
+}
+
+.meme-image-display {
+  width: 20%;
+  height: auto;
+}
+
+.captions {
+  height: 150px;
+  overflow: scroll;
+}
+
+.fav .meme-image-display{
+  width: 30%;
+}
+
+.top-meme {
+  display: block;
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.top-meme-img {
+  width: 60%;
+  height:auto;
+}
+
+.latestLike-meme-img {
+  width: 25%;
+  height: auto;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+.links:hover {
+  color:#5bc0de;
+}
