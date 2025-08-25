@@ -8,7 +8,7 @@ import memeController from "./controllers/meme-controller.js";
 import commentController from "./controllers/comment-controller.js";
 
 mongoose.connect(
-  "mongodb+srv://jonshih:123aabbcc@cluster0.6gab2.mongodb.net/final-proj?retryWrites=true&w=majority"
+  ""
 );
 
 const app = express();
